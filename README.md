@@ -1,2 +1,1 @@
-# Flexbox-Tips
-This is a guide to flexbox
+# This branch is dedicated to the landing pages

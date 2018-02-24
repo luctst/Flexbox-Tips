@@ -2,7 +2,7 @@
 Learn how to use Flexbox in your project
 
 ## Getting started
-If you want have this repo like a memo you can fork this repo by using this
+If you want have this repo like a memo you can clone this repo by using this
 ```
 git clone git@github.com:luctst/flexbox-Tips.git
 ```

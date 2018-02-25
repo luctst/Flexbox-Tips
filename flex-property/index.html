@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Flex-property</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center mt-4 mb-4">Understand flex property</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="wrapper">
+            <div>
+              <p>Home</p>
+            </div>
+            <div>
+              <p>Search</p>
+            </div>
+            <div>
+              <p>Logout</p>
+            </div>
+          </div>
+          <ol class="mt-4 mb-4 list-group">
+            <li class="list-group-item">The flex property is a shorthand for <code>flex-grow,flex-shrink,flex-basis</code>.</li>
+            <li class="list-group-item">The <code>flex-basis</code> property determines the flexibility base used
+            as the primary initial size for a flexible element, we can indicate <code>width:(px,em,%,auto)</code>
+            but also <code>content:(content,max-content,min-content..)</code> who affect the size in terms of
+            his content.</li>
+            <li class="list-group-item">The <code>flex-grow</code> property determines the amount of space the
+            element should consume in a flexible container. <code>flex-grow:1</code> indicate that the element
+            will take 1 fraction of available space.</li>
+            <li class="list-group-item">The <code>flex-shrink</code> property defines the possibility for a flex
+            item to be reduced if necessary when there is not enough space in a row, by default the value is
+            <code>flex-shrink:1</code> which mean that all items will be reduced by the same size if we change
+            this value and give it to one element <code>flex-shrink:2</code> this element will be reduced twice
+            more than the others.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

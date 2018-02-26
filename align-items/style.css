@@ -1,0 +1,16 @@
+.wrapper {
+  border: 5px solid #ffcc5c;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.wrapper > div {
+  padding: 10px;
+  text-align:center;
+  border-radius: 10px;
+}
+.wrapper > div > p { color: #fff;}
+.wrapper > div:nth-child(2) { background-color: #68a; align-self: center;}
+.wrapper > div:nth-child(1) { background-color: #65b; align-self: flex-start;}
+.wrapper > div:nth-child(3) { background-color: #66e; }

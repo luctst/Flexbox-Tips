@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Oder property</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center mt-4 mb-4">Order property</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="wrapper">
+            <div>
+              <p>Home</p>
+            </div>
+            <div>
+              <p>Search</p>
+            </div>
+            <div>
+              <p>Logout</p>
+            </div>
+          </div>
+          <ul class="list-group mt-4 mb-4">
+            <li class="list-group-item">you can change the order of your elements by using <code>order</code>.</li>
+            <li class="list-group-item">By default all our elements are <code>order:0</code>.</li>
+            <li class="list-group-item">The elements are visually placed in terms of the number in
+            <code>order</code>.</li>
+            <li class="list-group-item">So in our example the logout div which is in the third position in our
+            html file has <code>order:-1</code>, because all our elements have <code>order:0</code> by default
+            we can give -1 to our element who will always move him to the first place.</li>
+            <li class="list-group-item">If many elements have the same number in <code>order</code> the elements
+            will be placed in terms of the order of the html file.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

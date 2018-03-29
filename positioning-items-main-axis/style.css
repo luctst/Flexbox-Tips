@@ -7,8 +7,9 @@
   padding: 10px;
   text-align:center;
   border-radius: 10px;
+  flex: 1 0 0;
 }
 .wrapper > div > p { color: #fff;}
-.wrapper > div:nth-child(2) { background-color: #68a; }
-.wrapper > div:nth-child(1) { background-color: #65b; margin-right: auto; }
-.wrapper > div:nth-child(3) { background-color: #66e; }
+.wrapper > div:nth-child(2) { background-color: #68a; order: 2;}
+.wrapper > div:nth-child(1) { background-color: #65b; }
+.wrapper > div:nth-child(3) { background-color: #66e; order: -1;}

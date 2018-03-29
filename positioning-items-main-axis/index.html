@@ -30,6 +30,31 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <ul class="list-group mt-4 mb-4">
+                <li class="list-group-item">You know that with flexbox there are two axis who allow us to move the position of our elements but imagine that
+                    you only want move
+                    <code>one element</code>.. Well in this chapter we will see how we can move
+                    <code>only one</code> element on the main axis.</li>
+                <li class="list-group-item">So
+                    <code>justify-content</code> property move items on the main axis but as you know it will move all the childs elements of your
+                    <code>flex</code> container, the solution is simply to use the
+                    <code>margin</code> property by using
+                    <code>margin: auto</code> this will move all the other elements as the oposite of your element with the
+                    <code>auto</code> property.</li>
+                <li class="list-group-item">As you can see in our example we only want our
+                    <code>home</code> div on the left side on the main axis which is horizontal because of
+                    <code>flex-direction:row</code>, so two solutions the first one is to use
+                    <code>margin-right:auto</code> on the
+                    <code>home</code> div who gonna push until on parent border the others elements. The other solution is to use
+                    <code>margin-left:auto</code> on the
+                    <code>search</code> who gonna push the
+                    <code>home</code> div top on the left border of the parent border.</li>
+                <li class="list-group-item">We will see later how to move only one item on the
+                    <code>second axis</code> with
+                    <code>align-self</code>.</li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>

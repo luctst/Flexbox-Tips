@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-center mt-4 mb-4">How to use flex-wrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="wrapper">
+                <div class="home">
+                    <p>Home</p>
+                </div>
+                <div class="search">
+                    <p>Search</p>
+                </div>
+                <div class="logout">
+                    <p>Logout</p>
+                </div>
+            </div>
+            <ul class="lis-group mt-4 mb-4 pl-0">
+                <li class="list-group-item">When you give a <code>width</code> property to an element in flexbox the elements will adapt this size in the container, but if the container is too small to contain the size that you gave so the elements will stretch in the container.</li>
+                <li class="list-group-item">In our example above we gave a <code>width; 600px</code> to our elements but the container is too small to contain this size so in flexbox because of <code>flex-wrap: nowrap</code> the elements stretch to fill the container instead of returning to the line.</li>
+                <li class="list-group-item">So as you can understand the <code>flex-wrap</code> property acts on the return to the line of your elements.</li>
+                <li class="list-group-item">If you want change that you can simply use <code>flex-wrap: wrap</code></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>

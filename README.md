@@ -1,4 +1,8 @@
-# [Flexbox Tips, click to see tips](https://luctst.github.io/Flexbox-Tips/)
+<div align="center">
+  <img src="flexbox-logo.jpg">
+</div>
+
+# Flexbox Tips, click to see tips
 Learn how to use Flexbox in your project
 
 ## Getting started
